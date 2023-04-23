@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  matheus:
+    container_name: matheus
+    build: .
+    image: matheus
+    command: python3 ide.py
